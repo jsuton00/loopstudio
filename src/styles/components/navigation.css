@@ -1,0 +1,62 @@
+.navbar {
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 5rem;
+	padding: 0.25rem 0.5rem;
+}
+
+.brand-nav {
+	flex-basis: 24%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	padding: 0.25rem 0;
+}
+
+.brand-nav-name {
+	font-size: 2rem;
+	font-weight: 500;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	padding: 0rem 1rem;
+}
+
+.nav-links {
+	flex-basis: 69%;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	padding: 0.25rem 1rem;
+}
+
+.nav-link-item {
+	flex-basis: 18%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 0.25rem 0.5rem;
+}
+
+.nav-link-button {
+	width: 100%;
+	height: 100%;
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+}
+
+.nav-link-label {
+	width: 100%;
+	padding: 0.25rem 0.5rem;
+	text-transform: capitalize;
+	color: #fff;
+	text-align: center;
+	font-weight: 500;
+}
